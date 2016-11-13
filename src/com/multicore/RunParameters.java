@@ -8,5 +8,6 @@ public enum RunParameters {
 
   RunParameters(int value) {
     this.value = value;
+
   }
 }
