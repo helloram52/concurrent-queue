@@ -19,10 +19,9 @@ public class Main {
         for(int i = 1;i <= RunParameters.NUMBER_OF_RUNS.value;i++) {
             Utils.logInfo("Run  #" + i + ":");
 
-            //new ListRunner().run(2, totalOperationsToPerform);
             for (int j = 1;j <= numberOfThreads;j++) {
                 Utils.logInfo("Number of threads: " + j);
-                new ListRunner().run(j, totalOperationsToPerform, i);
+                new QueueRunner().run(j, totalOperationsToPerform, i);
             }
         }
     }
