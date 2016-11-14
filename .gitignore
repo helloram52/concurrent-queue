@@ -1,3 +1,7 @@
 .idea
+.idea?
+*.log
+*.class
 out
-run.log
+out?
+

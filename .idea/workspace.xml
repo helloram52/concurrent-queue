@@ -6,7 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af01f999-9c2f-4cf9-a61c-c1e8137a50ab" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run.log" afterPath="$PROJECT_DIR$/run.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
     </list>
     <ignored path="ConcurrentQueue.iws" />
     <ignored path=".idea/workspace.xml" />
