@@ -1,20 +1,18 @@
-[2016-11-13 16:49:02.383] Nanotime: 1124718464586658 INFO : Number of available CPU cores #4
-[2016-11-13 16:49:02.442] Nanotime: 1124718465184733 INFO : Run  #1:
-[2016-11-13 16:49:02.443] Nanotime: 1124718465680417 INFO : Number of threads: 1
-[2016-11-13 16:49:02.445] Nanotime: 1124718468121468 INFO : Run #:1LockFree List
-[2016-11-13 16:49:02.457] Nanotime: 1124718479303580 INFO : pool-1-thread-1 : Invoking OperationID: 1
-[2016-11-13 16:49:02.460] Nanotime: 1124718483184957 INFO : pool-1-thread-1 : Invoking OperationID: 2
-[2016-11-13 16:49:02.461] Nanotime: 1124718483554153 INFO : pool-1-thread-1 : OperationID: 2 Enq(5)
-[2016-11-13 16:49:02.461] Nanotime: 1124718483929286 INFO : pool-1-thread-1 : Invoking OperationID: 3
-[2016-11-13 16:49:02.462] Nanotime: 1124718484257484 INFO : pool-1-thread-1 : OperationID: 3 Enq(5)
-[2016-11-13 16:49:02.462] Nanotime: 1124718484577160 INFO : pool-1-thread-1 : Invoking OperationID: 4
-[2016-11-13 16:49:02.462] Nanotime: 1124718484996923 INFO : pool-1-thread-1 : Invoking OperationID: 5
-[2016-11-13 16:49:02.463] Nanotime: 1124718485335667 INFO : pool-1-thread-1 : OperationID: 5 Enq(4)
-[2016-11-13 16:49:02.463] Nanotime: 1124718485661839 INFO : pool-1-thread-1 : Invoking OperationID: 6
-[2016-11-13 16:49:02.463] Nanotime: 1124718485963007 INFO : pool-1-thread-1 : OperationID: 6 Enq(4)
-[2016-11-13 16:49:02.464] Nanotime: 1124718486297141 INFO : pool-1-thread-1 : Invoking OperationID: 7
-[2016-11-13 16:49:02.464] Nanotime: 1124718486726473 INFO : pool-1-thread-1 : Invoking OperationID: 8
-[2016-11-13 16:49:02.464] Nanotime: 1124718487332929 INFO : pool-1-thread-1 : OperationID: 8 Enq(2)
-[2016-11-13 16:49:02.465] Nanotime: 1124718487756953 INFO : pool-1-thread-1 : Invoking OperationID: 9
-[2016-11-13 16:49:02.465] Nanotime: 1124718488213873 INFO : pool-1-thread-1 : Invoking OperationID: 10
-[2016-11-13 16:49:02.466] Nanotime: 1124718492049153 INFO : pool-1-thread-1 : OperationID: 10 Enq(5)
+[2016-11-14 14:42:56.819] Nanotime: 1203552883045918 INFO : Number of available CPU cores #4
+[2016-11-14 14:42:56.861] Nanotime: 1203552883614379 INFO : Run  #1:
+[2016-11-14 14:42:56.861] Nanotime: 1203552883940272 INFO : Number of threads: 1
+[2016-11-14 14:42:56.863] Nanotime: 1203552886217470 INFO : Run #:1LockFree List
+[2016-11-14 14:42:56.875] Nanotime: 1203552897354815 INFO : pool-1-thread-1 : Invoking OperationID: 1
+[2016-11-14 14:42:56.875] Nanotime: 1203552897912450 INFO : pool-1-thread-1 : OperationID: 1 Enq(1)
+[2016-11-14 14:42:56.876] Nanotime: 1203552898336055 INFO : pool-1-thread-1 : Invoking OperationID: 2
+[2016-11-14 14:42:56.876] Nanotime: 1203552898992450 INFO : pool-1-thread-1 : Invoking OperationID: 3
+[2016-11-14 14:42:56.877] Nanotime: 1203552899404879 INFO : pool-1-thread-1 : Invoking OperationID: 4
+[2016-11-14 14:42:56.877] Nanotime: 1203552899920958 INFO : pool-1-thread-1 : Invoking OperationID: 5
+[2016-11-14 14:42:56.878] Nanotime: 1203552900306846 INFO : pool-1-thread-1 : OperationID: 5 Enq(3)
+[2016-11-14 14:42:56.878] Nanotime: 1203552900722209 INFO : pool-1-thread-1 : Invoking OperationID: 6
+[2016-11-14 14:42:56.878] Nanotime: 1203552901175707 INFO : pool-1-thread-1 : Invoking OperationID: 7
+[2016-11-14 14:42:56.879] Nanotime: 1203552901661403 INFO : pool-1-thread-1 : Invoking OperationID: 8
+[2016-11-14 14:42:56.879] Nanotime: 1203552901990579 INFO : pool-1-thread-1 : OperationID: 8 Enq(1)
+[2016-11-14 14:42:56.880] Nanotime: 1203552902350835 INFO : pool-1-thread-1 : Invoking OperationID: 9
+[2016-11-14 14:42:56.880] Nanotime: 1203552902747549 INFO : pool-1-thread-1 : Invoking OperationID: 10
+[2016-11-14 14:42:56.880] Nanotime: 1203552903077004 INFO : pool-1-thread-1 : OperationID: 10 Enq(2)
