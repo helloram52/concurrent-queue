@@ -5,9 +5,8 @@ package com.multicore;
  * the experiment.
  */
 public enum RunMode {
-  READ_DOMINATED(9, 1, 90, "Read Dominated"),
-  MIXED(20, 10, 70, "Mixed"),
-  WRITE_DOMINATED(50, 50, 0, "Write Dominated");
+  ENQ_DEQ(50, 50, 0, "Only Enq and Deq"),
+  WRITE_DOMINATED(40, 40, 20, "Enq, Deq with isEmpty");
 
   int percentageOfInserts, percentageOfDeletes, percentageOfSearches;
   String modeName;
