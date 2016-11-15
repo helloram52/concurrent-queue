@@ -1,7 +1,7 @@
 package com.multicore;
 
 /**
- * Created by sparknode on 11/13/16.
+ * Created by Ram on 11/13/16.
  */
 public interface UnBoundedQueue {
 

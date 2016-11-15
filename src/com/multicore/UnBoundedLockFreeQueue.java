@@ -6,7 +6,7 @@ import java.util.EmptyStackException;
 import java.util.concurrent.atomic.AtomicReference;
 
 /**
- * Created by sparknode on 11/13/16.
+ * Created by Ram on 11/13/16.
  */
 public class UnBoundedLockFreeQueue implements UnBoundedQueue {
 

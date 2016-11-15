@@ -3,7 +3,7 @@ package com.multicore;
 import java.util.concurrent.atomic.AtomicReference;
 
 /**
- * Created by sparknode on 11/13/16.
+ * Created by Ram on 11/13/16.
  */
 class Node {
 
@@ -54,3 +54,4 @@ class LockFreeNode extends Node {
         this.next = new AtomicReference<>(node);
     }
 }
+

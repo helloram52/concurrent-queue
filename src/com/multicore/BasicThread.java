@@ -23,6 +23,7 @@ public class BasicThread implements Runnable {
     int value;
     boolean result;
     String threadname = Thread.currentThread().getName();
+
     switch (operationName) {
       case "enq":
 
@@ -34,7 +35,13 @@ public class BasicThread implements Runnable {
       case "deq":
 
         Utils.logInfo(threadname + " : Invoking OperationID: " + operationID );
-        value = queue.deq();
+        try {
+          value = queue.deq();
+        }
+        catch (Exception e) {
+//          Utils.logInfo("Exception e: " + e.getStackTrace());
+          value = -1;
+        }
         Utils.logInfo(threadname + " : OperationID: " + operationID +  " Deq() : " + value);
         break;
 
@@ -47,7 +54,6 @@ public class BasicThread implements Runnable {
 
       default:
         Utils.logInfo(threadname + ": Invalid operation: " + operationName);
-
     }
   }
 

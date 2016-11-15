@@ -40,15 +40,18 @@ public class UnboundedLockBasedQueue implements UnBoundedQueue {
         deqLock.lock();
         try {
             if( head.getNext() == null ) {
+                Utils.logInfo("throwing empty stack exception");
                 throw new EmptyStackException();
             }
-            result=head.getNext().getValue();
+            result = head.getNext().getValue();
             head = head.getNext();
+            return result;
         }
         finally {
             deqLock.unlock();
         }
-        return result;
+
+
     }
 
     public boolean isEmpty() {

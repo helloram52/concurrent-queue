@@ -5,15 +5,15 @@ package com.multicore;
  * the experiment.
  */
 public enum RunMode {
-  ENQ_DEQ(50, 50, 0, "Only Enq and Deq"),
-  WRITE_DOMINATED(40, 40, 20, "Enq, Deq with isEmpty");
+  ENQ_DEQ(80, 20, 0, "Enq_Deq"),
+  MIXED(40, 40, 20, "Enq_Deq_isEmpty");
 
-  int percentageOfInserts, percentageOfDeletes, percentageOfSearches;
+  int percentageOfEnqueue, percentageOfDequeue, percentageOfIsEmpty;
   String modeName;
-  RunMode(int percentageOfInserts, int percentageOfDeletes, int percentageOfSearches, String modeName) {
-    this.percentageOfInserts = percentageOfInserts;
-    this.percentageOfDeletes = percentageOfDeletes;
-    this.percentageOfSearches = percentageOfSearches;
+  RunMode(int percentageOfEnqueue, int percentageOfDequeue, int percentageOfIsEmpty, String modeName) {
+    this.percentageOfEnqueue = percentageOfEnqueue;
+    this.percentageOfDequeue = percentageOfDequeue;
+    this.percentageOfIsEmpty = percentageOfIsEmpty;
     this.modeName = modeName;
   }
 }
