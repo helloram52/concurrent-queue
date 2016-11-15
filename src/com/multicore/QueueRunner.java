@@ -7,10 +7,9 @@ public class QueueRunner {
 
 
     public float startThreads(int noOfThreads, UnBoundedQueue queue, RunMode runMode, int totalOperationsCount) {
-        Utils.logInfo("Init runner with noOfThreads: " + noOfThreads + " totalOpscount: " + totalOperationsCount);
         Runner runner = new Runner(noOfThreads, totalOperationsCount);
 
-        int i = 1;
+        int i = 0;
 
         Random random = new Random();
         int enqueueEnd = runMode.percentageOfEnqueue;
@@ -21,6 +20,7 @@ public class QueueRunner {
         while (i++ < totalOperationsCount) {
             int randomInt = random.nextInt(100) + 1;
             int key = random.nextInt(RunParameters.MAX_KEY_SIZE.value) + 1;
+
             if (randomInt >= 1 && randomInt <= enqueueEnd) {
                 runner.run( new BasicThread(i, queue, "enq", key) );
             }
@@ -33,7 +33,9 @@ public class QueueRunner {
         }
 
         runner.waitTillDone();
+//        Utils.logInfo("after tilldone");
         runner.shutDown();
+//        Utils.logInfo("after shutdown");
 
         long endTime = System.currentTimeMillis();
         float totalTime = (float) (endTime - startTime) / 1000;
@@ -48,12 +50,12 @@ public class QueueRunner {
         // For each run, execute it for all the different modes.
         for (RunMode mode : RunMode.values()) {
 
-            Utils.logInfo("Run #:" + runNumber + " Lockbased Queue, Mode: " + mode.modeName);
+//            Utils.logInfo("Run #:" + runNumber + " Lockbased Queue, Mode: " + mode.modeName);
             UnBoundedQueue lockBasedQueue = new UnboundedLockBasedQueue();
             executionTime = startThreads(numberOfThreads, lockBasedQueue, mode, totalOperationsCount);
             Utils.logInfo("Run #:" + runNumber + " Number of Threads: " + numberOfThreads + " Queue: LockBased, Mode: " + mode.modeName + " Execution Time: " + executionTime + " seconds.");
 
-            Utils.logInfo("Run #:" + runNumber + " LockFree Queue, Mode: " + mode.modeName);
+//            Utils.logInfo("Run #:" + runNumber + " LockFree Queue, Mode: " + mode.modeName);
             UnBoundedQueue lockFreeQueue = new UnBoundedLockFreeQueue();
             executionTime = startThreads(numberOfThreads, lockFreeQueue, mode, totalOperationsCount);
             Utils.logInfo("Run #:" + runNumber + " Number of Threads: " + numberOfThreads + " Queue: LockFree, Mode: " + mode.modeName + " Execution Time: " + executionTime + " seconds.");

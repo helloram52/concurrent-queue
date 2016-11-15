@@ -27,14 +27,14 @@ public class BasicThread implements Runnable {
     switch (operationName) {
       case "enq":
 
-        Utils.logInfo(threadname + " : Invoking OperationID: " + operationID );
+//        Utils.logInfo(threadname + " : Invoking OperationID: " + operationID );
         queue.enq(key);
-        Utils.logInfo(threadname + " : OperationID: " + operationID +  " Enq(" + key + ")");
+//        Utils.logInfo(threadname + " : OperationID: " + operationID +  " Enq(" + key + ")");
         break;
 
       case "deq":
 
-        Utils.logInfo(threadname + " : Invoking OperationID: " + operationID );
+//        Utils.logInfo(threadname + " : Invoking OperationID: " + operationID );
         try {
           value = queue.deq();
         }
@@ -42,14 +42,14 @@ public class BasicThread implements Runnable {
 //          Utils.logInfo("Exception e: " + e.getStackTrace());
           value = -1;
         }
-        Utils.logInfo(threadname + " : OperationID: " + operationID +  " Deq() : " + value);
+//        Utils.logInfo(threadname + " : OperationID: " + operationID +  " Deq() : " + value);
         break;
 
       case "isEmpty":
 
-        Utils.logInfo(threadname + " : Invoking OperationID: " + operationID );
+//        Utils.logInfo(threadname + " : Invoking OperationID: " + operationID );
         result = queue.isEmpty();
-        Utils.logInfo(threadname + " : OperationID: " + operationID +  " isEmpty() : " + result);
+//        Utils.logInfo(threadname + " : OperationID: " + operationID +  " isEmpty() : " + result);
         break;
 
       default:

@@ -1,7 +1,5 @@
 package com.multicore;
 
-import sun.invoke.empty.Empty;
-
 import java.util.EmptyStackException;
 
 /**
@@ -39,8 +37,7 @@ public class UnboundedLockBasedQueue implements UnBoundedQueue {
         int result;
         deqLock.lock();
         try {
-            if( head.getNext() == null ) {
-                Utils.logInfo("throwing empty stack exception");
+            if ( head.getNext() == null ) {
                 throw new EmptyStackException();
             }
             result = head.getNext().getValue();
