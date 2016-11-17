@@ -1,0 +1,361 @@
+[2016-11-15 15:03:29.263] Nanotime: 1751192602102288 INFO : Number of available CPU cores #32
+[2016-11-15 15:03:29.359] Nanotime: 1751192602861320 INFO : Run  #1:
+[2016-11-15 15:03:29.359] Nanotime: 1751192603135394 INFO : Number of threads: 1
+[2016-11-15 15:03:32.364] Nanotime: 1751195607718945 INFO : Run #:1 Number of Threads: 1 Queue: LockBased, Mode: Enq_Deq Execution Time: 2.987 seconds.
+[2016-11-15 15:03:33.597] Nanotime: 1751196840900639 INFO : Run #:1 Number of Threads: 1 Queue: LockFree, Mode: Enq_Deq Execution Time: 1.229 seconds.
+[2016-11-15 15:03:37.076] Nanotime: 1751200320161795 INFO : Run #:1 Number of Threads: 1 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 3.478 seconds.
+[2016-11-15 15:03:39.751] Nanotime: 1751202995094034 INFO : Run #:1 Number of Threads: 1 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 2.673 seconds.
+[2016-11-15 15:03:39.752] Nanotime: 1751202995708984 INFO : Number of threads: 2
+[2016-11-15 15:03:47.045] Nanotime: 1751210291929638 INFO : Run #:1 Number of Threads: 2 Queue: LockBased, Mode: Enq_Deq Execution Time: 7.292 seconds.
+[2016-11-15 15:03:50.027] Nanotime: 1751213271042829 INFO : Run #:1 Number of Threads: 2 Queue: LockFree, Mode: Enq_Deq Execution Time: 2.978 seconds.
+[2016-11-15 15:03:55.597] Nanotime: 1751218842264596 INFO : Run #:1 Number of Threads: 2 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 5.568 seconds.
+[2016-11-15 15:03:59.584] Nanotime: 1751222828929315 INFO : Run #:1 Number of Threads: 2 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 3.985 seconds.
+[2016-11-15 15:03:59.587] Nanotime: 1751222830679675 INFO : Number of threads: 4
+[2016-11-15 15:04:04.570] Nanotime: 1751227815299578 INFO : Run #:1 Number of Threads: 4 Queue: LockBased, Mode: Enq_Deq Execution Time: 4.983 seconds.
+[2016-11-15 15:04:07.269] Nanotime: 1751230513470942 INFO : Run #:1 Number of Threads: 4 Queue: LockFree, Mode: Enq_Deq Execution Time: 2.696 seconds.
+[2016-11-15 15:04:10.971] Nanotime: 1751234214930584 INFO : Run #:1 Number of Threads: 4 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 3.7 seconds.
+[2016-11-15 15:04:13.185] Nanotime: 1751236429311048 INFO : Run #:1 Number of Threads: 4 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 2.213 seconds.
+[2016-11-15 15:04:13.187] Nanotime: 1751236430509817 INFO : Number of threads: 8
+[2016-11-15 15:04:17.207] Nanotime: 1751240450818133 INFO : Run #:1 Number of Threads: 8 Queue: LockBased, Mode: Enq_Deq Execution Time: 4.02 seconds.
+[2016-11-15 15:04:19.888] Nanotime: 1751243131832708 INFO : Run #:1 Number of Threads: 8 Queue: LockFree, Mode: Enq_Deq Execution Time: 2.677 seconds.
+[2016-11-15 15:04:23.312] Nanotime: 1751246556396103 INFO : Run #:1 Number of Threads: 8 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 3.422 seconds.
+[2016-11-15 15:04:26.286] Nanotime: 1751249529367213 INFO : Run #:1 Number of Threads: 8 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 2.972 seconds.
+[2016-11-15 15:04:26.287] Nanotime: 1751249530987216 INFO : Number of threads: 16
+[2016-11-15 15:04:31.580] Nanotime: 1751254824470554 INFO : Run #:1 Number of Threads: 16 Queue: LockBased, Mode: Enq_Deq Execution Time: 5.292 seconds.
+[2016-11-15 15:04:36.404] Nanotime: 1751259647412950 INFO : Run #:1 Number of Threads: 16 Queue: LockFree, Mode: Enq_Deq Execution Time: 4.818 seconds.
+[2016-11-15 15:04:42.234] Nanotime: 1751265479123098 INFO : Run #:1 Number of Threads: 16 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 5.829 seconds.
+[2016-11-15 15:04:46.845] Nanotime: 1751270089482403 INFO : Run #:1 Number of Threads: 16 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 4.607 seconds.
+[2016-11-15 15:04:46.847] Nanotime: 1751270091173562 INFO : Number of threads: 32
+[2016-11-15 15:04:55.608] Nanotime: 1751278853889095 INFO : Run #:1 Number of Threads: 32 Queue: LockBased, Mode: Enq_Deq Execution Time: 8.759 seconds.
+[2016-11-15 15:05:03.557] Nanotime: 1751286801562808 INFO : Run #:1 Number of Threads: 32 Queue: LockFree, Mode: Enq_Deq Execution Time: 7.942 seconds.
+[2016-11-15 15:05:12.625] Nanotime: 1751295871149294 INFO : Run #:1 Number of Threads: 32 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 9.064 seconds.
+[2016-11-15 15:05:19.804] Nanotime: 1751303047886566 INFO : Run #:1 Number of Threads: 32 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 7.173 seconds.
+[2016-11-15 15:05:19.807] Nanotime: 1751303050441223 INFO : Number of threads: 64
+[2016-11-15 15:05:31.523] Nanotime: 1751314770707744 INFO : Run #:1 Number of Threads: 64 Queue: LockBased, Mode: Enq_Deq Execution Time: 11.716 seconds.
+[2016-11-15 15:05:41.841] Nanotime: 1751325084854555 INFO : Run #:1 Number of Threads: 64 Queue: LockFree, Mode: Enq_Deq Execution Time: 10.305 seconds.
+[2016-11-15 15:05:47.275] Nanotime: 1751330518326002 INFO : Run #:1 Number of Threads: 64 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 5.432 seconds.
+[2016-11-15 15:05:52.811] Nanotime: 1751336056655065 INFO : Run #:1 Number of Threads: 64 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 5.534 seconds.
+[2016-11-15 15:05:52.815] Nanotime: 1751336058278267 INFO : Run  #2:
+[2016-11-15 15:05:52.815] Nanotime: 1751336058478926 INFO : Number of threads: 1
+[2016-11-15 15:05:56.165] Nanotime: 1751339409341554 INFO : Run #:2 Number of Threads: 1 Queue: LockBased, Mode: Enq_Deq Execution Time: 3.35 seconds.
+[2016-11-15 15:05:58.585] Nanotime: 1751341832178871 INFO : Run #:2 Number of Threads: 1 Queue: LockFree, Mode: Enq_Deq Execution Time: 2.418 seconds.
+[2016-11-15 15:06:02.235] Nanotime: 1751345478460056 INFO : Run #:2 Number of Threads: 1 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 3.645 seconds.
+[2016-11-15 15:06:04.748] Nanotime: 1751347992022983 INFO : Run #:2 Number of Threads: 1 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 2.512 seconds.
+[2016-11-15 15:06:04.750] Nanotime: 1751347993587099 INFO : Number of threads: 2
+[2016-11-15 15:06:08.579] Nanotime: 1751351824534225 INFO : Run #:2 Number of Threads: 2 Queue: LockBased, Mode: Enq_Deq Execution Time: 3.828 seconds.
+[2016-11-15 15:06:12.662] Nanotime: 1751355906402028 INFO : Run #:2 Number of Threads: 2 Queue: LockFree, Mode: Enq_Deq Execution Time: 4.08 seconds.
+[2016-11-15 15:06:16.176] Nanotime: 1751359419713711 INFO : Run #:2 Number of Threads: 2 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 3.512 seconds.
+[2016-11-15 15:06:20.540] Nanotime: 1751363785481353 INFO : Run #:2 Number of Threads: 2 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 4.361 seconds.
+[2016-11-15 15:06:20.544] Nanotime: 1751363787456068 INFO : Number of threads: 4
+[2016-11-15 15:06:25.702] Nanotime: 1751368945499974 INFO : Run #:2 Number of Threads: 4 Queue: LockBased, Mode: Enq_Deq Execution Time: 5.157 seconds.
+[2016-11-15 15:06:28.398] Nanotime: 1751371679309565 INFO : Run #:2 Number of Threads: 4 Queue: LockFree, Mode: Enq_Deq Execution Time: 2.695 seconds.
+[2016-11-15 15:06:31.741] Nanotime: 1751374985157773 INFO : Run #:2 Number of Threads: 4 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 3.303 seconds.
+[2016-11-15 15:06:33.979] Nanotime: 1751377222610901 INFO : Run #:2 Number of Threads: 4 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 2.236 seconds.
+[2016-11-15 15:06:33.980] Nanotime: 1751377224010345 INFO : Number of threads: 8
+[2016-11-15 15:06:37.175] Nanotime: 1751380418827152 INFO : Run #:2 Number of Threads: 8 Queue: LockBased, Mode: Enq_Deq Execution Time: 3.194 seconds.
+[2016-11-15 15:06:40.139] Nanotime: 1751383383158942 INFO : Run #:2 Number of Threads: 8 Queue: LockFree, Mode: Enq_Deq Execution Time: 2.962 seconds.
+[2016-11-15 15:06:44.411] Nanotime: 1751387655556692 INFO : Run #:2 Number of Threads: 8 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 4.269 seconds.
+[2016-11-15 15:06:48.219] Nanotime: 1751391465393963 INFO : Run #:2 Number of Threads: 8 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 3.805 seconds.
+[2016-11-15 15:06:48.223] Nanotime: 1751391466891553 INFO : Number of threads: 16
+[2016-11-15 15:06:54.070] Nanotime: 1751397314129505 INFO : Run #:2 Number of Threads: 16 Queue: LockBased, Mode: Enq_Deq Execution Time: 5.846 seconds.
+[2016-11-15 15:06:58.841] Nanotime: 1751402085459921 INFO : Run #:2 Number of Threads: 16 Queue: LockFree, Mode: Enq_Deq Execution Time: 4.767 seconds.
+[2016-11-15 15:07:05.008] Nanotime: 1751408251531295 INFO : Run #:2 Number of Threads: 16 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 6.164 seconds.
+[2016-11-15 15:07:09.852] Nanotime: 1751413098489058 INFO : Run #:2 Number of Threads: 16 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 4.843 seconds.
+[2016-11-15 15:07:09.856] Nanotime: 1751413100721691 INFO : Number of threads: 32
+[2016-11-15 15:07:18.402] Nanotime: 1751421646995243 INFO : Run #:2 Number of Threads: 32 Queue: LockBased, Mode: Enq_Deq Execution Time: 8.544 seconds.
+[2016-11-15 15:07:23.364] Nanotime: 1751426608156119 INFO : Run #:2 Number of Threads: 32 Queue: LockFree, Mode: Enq_Deq Execution Time: 4.959 seconds.
+[2016-11-15 15:07:32.918] Nanotime: 1751436163120762 INFO : Run #:2 Number of Threads: 32 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 9.55 seconds.
+[2016-11-15 15:07:40.314] Nanotime: 1751443558653603 INFO : Run #:2 Number of Threads: 32 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 7.392 seconds.
+[2016-11-15 15:07:40.319] Nanotime: 1751443562436234 INFO : Number of threads: 64
+[2016-11-15 15:07:46.101] Nanotime: 1751449345449555 INFO : Run #:2 Number of Threads: 64 Queue: LockBased, Mode: Enq_Deq Execution Time: 5.782 seconds.
+[2016-11-15 15:07:51.927] Nanotime: 1751455172834073 INFO : Run #:2 Number of Threads: 64 Queue: LockFree, Mode: Enq_Deq Execution Time: 5.822 seconds.
+[2016-11-15 15:07:59.319] Nanotime: 1751462566951855 INFO : Run #:2 Number of Threads: 64 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 7.388 seconds.
+[2016-11-15 15:08:05.241] Nanotime: 1751468484262880 INFO : Run #:2 Number of Threads: 64 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 5.916 seconds.
+[2016-11-15 15:08:05.242] Nanotime: 1751468485411112 INFO : Run  #3:
+[2016-11-15 15:08:05.242] Nanotime: 1751468485622028 INFO : Number of threads: 1
+[2016-11-15 15:08:08.922] Nanotime: 1751472165853320 INFO : Run #:3 Number of Threads: 1 Queue: LockBased, Mode: Enq_Deq Execution Time: 3.678 seconds.
+[2016-11-15 15:08:11.468] Nanotime: 1751474711916760 INFO : Run #:3 Number of Threads: 1 Queue: LockFree, Mode: Enq_Deq Execution Time: 2.544 seconds.
+[2016-11-15 15:08:15.162] Nanotime: 1751478406325863 INFO : Run #:3 Number of Threads: 1 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 3.692 seconds.
+[2016-11-15 15:08:17.761] Nanotime: 1751481005778164 INFO : Run #:3 Number of Threads: 1 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 2.596 seconds.
+[2016-11-15 15:08:17.764] Nanotime: 1751481007305785 INFO : Number of threads: 2
+[2016-11-15 15:08:25.349] Nanotime: 1751488593681610 INFO : Run #:3 Number of Threads: 2 Queue: LockBased, Mode: Enq_Deq Execution Time: 7.585 seconds.
+[2016-11-15 15:08:28.692] Nanotime: 1751491936232465 INFO : Run #:3 Number of Threads: 2 Queue: LockFree, Mode: Enq_Deq Execution Time: 3.34 seconds.
+[2016-11-15 15:08:32.956] Nanotime: 1751496199909568 INFO : Run #:3 Number of Threads: 2 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 4.261 seconds.
+[2016-11-15 15:08:37.627] Nanotime: 1751500872061436 INFO : Run #:3 Number of Threads: 2 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 4.669 seconds.
+[2016-11-15 15:08:37.629] Nanotime: 1751500872643763 INFO : Number of threads: 4
+[2016-11-15 15:08:43.894] Nanotime: 1751507138080465 INFO : Run #:3 Number of Threads: 4 Queue: LockBased, Mode: Enq_Deq Execution Time: 6.265 seconds.
+[2016-11-15 15:08:46.248] Nanotime: 1751509491580082 INFO : Run #:3 Number of Threads: 4 Queue: LockFree, Mode: Enq_Deq Execution Time: 2.353 seconds.
+[2016-11-15 15:08:50.462] Nanotime: 1751513706294250 INFO : Run #:3 Number of Threads: 4 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 4.214 seconds.
+[2016-11-15 15:08:52.832] Nanotime: 1751516075775098 INFO : Run #:3 Number of Threads: 4 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 2.369 seconds.
+[2016-11-15 15:08:52.832] Nanotime: 1751516075997066 INFO : Number of threads: 8
+[2016-11-15 15:08:56.700] Nanotime: 1751519944068372 INFO : Run #:3 Number of Threads: 8 Queue: LockBased, Mode: Enq_Deq Execution Time: 3.867 seconds.
+[2016-11-15 15:08:59.920] Nanotime: 1751523164105362 INFO : Run #:3 Number of Threads: 8 Queue: LockFree, Mode: Enq_Deq Execution Time: 3.218 seconds.
+[2016-11-15 15:09:03.831] Nanotime: 1751527074927113 INFO : Run #:3 Number of Threads: 8 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 3.91 seconds.
+[2016-11-15 15:09:06.355] Nanotime: 1751529598551575 INFO : Run #:3 Number of Threads: 8 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 2.523 seconds.
+[2016-11-15 15:09:06.355] Nanotime: 1751529598798259 INFO : Number of threads: 16
+[2016-11-15 15:09:11.889] Nanotime: 1751535133214924 INFO : Run #:3 Number of Threads: 16 Queue: LockBased, Mode: Enq_Deq Execution Time: 5.533 seconds.
+[2016-11-15 15:09:15.103] Nanotime: 1751538347090181 INFO : Run #:3 Number of Threads: 16 Queue: LockFree, Mode: Enq_Deq Execution Time: 3.213 seconds.
+[2016-11-15 15:09:21.031] Nanotime: 1751544275176301 INFO : Run #:3 Number of Threads: 16 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 5.926 seconds.
+[2016-11-15 15:09:24.704] Nanotime: 1751547947899432 INFO : Run #:3 Number of Threads: 16 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 3.672 seconds.
+[2016-11-15 15:09:24.705] Nanotime: 1751547948331579 INFO : Number of threads: 32
+[2016-11-15 15:09:32.782] Nanotime: 1751556027035166 INFO : Run #:3 Number of Threads: 32 Queue: LockBased, Mode: Enq_Deq Execution Time: 8.075 seconds.
+[2016-11-15 15:09:37.639] Nanotime: 1751560885782944 INFO : Run #:3 Number of Threads: 32 Queue: LockFree, Mode: Enq_Deq Execution Time: 4.855 seconds.
+[2016-11-15 15:09:46.467] Nanotime: 1751569711497693 INFO : Run #:3 Number of Threads: 32 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 8.824 seconds.
+[2016-11-15 15:09:52.756] Nanotime: 1751576003517809 INFO : Run #:3 Number of Threads: 32 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 6.287 seconds.
+[2016-11-15 15:09:52.761] Nanotime: 1751576004305346 INFO : Number of threads: 64
+[2016-11-15 15:10:02.671] Nanotime: 1751585915641860 INFO : Run #:3 Number of Threads: 64 Queue: LockBased, Mode: Enq_Deq Execution Time: 9.907 seconds.
+[2016-11-15 15:10:08.497] Nanotime: 1751591742000127 INFO : Run #:3 Number of Threads: 64 Queue: LockFree, Mode: Enq_Deq Execution Time: 5.824 seconds.
+[2016-11-15 15:10:16.008] Nanotime: 1751599251433920 INFO : Run #:3 Number of Threads: 64 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 7.506 seconds.
+[2016-11-15 15:10:24.189] Nanotime: 1751607433164448 INFO : Run #:3 Number of Threads: 64 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 8.176 seconds.
+[2016-11-15 15:10:24.190] Nanotime: 1751607433747937 INFO : Run  #4:
+[2016-11-15 15:10:24.190] Nanotime: 1751607433914294 INFO : Number of threads: 1
+[2016-11-15 15:10:28.271] Nanotime: 1751611515207001 INFO : Run #:4 Number of Threads: 1 Queue: LockBased, Mode: Enq_Deq Execution Time: 4.08 seconds.
+[2016-11-15 15:10:30.753] Nanotime: 1751613997029816 INFO : Run #:4 Number of Threads: 1 Queue: LockFree, Mode: Enq_Deq Execution Time: 2.481 seconds.
+[2016-11-15 15:10:34.363] Nanotime: 1751617606473439 INFO : Run #:4 Number of Threads: 1 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 3.608 seconds.
+[2016-11-15 15:10:36.825] Nanotime: 1751620068792864 INFO : Run #:4 Number of Threads: 1 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 2.462 seconds.
+[2016-11-15 15:10:36.825] Nanotime: 1751620069176720 INFO : Number of threads: 2
+[2016-11-15 15:10:43.095] Nanotime: 1751626339923376 INFO : Run #:4 Number of Threads: 2 Queue: LockBased, Mode: Enq_Deq Execution Time: 6.269 seconds.
+[2016-11-15 15:10:47.104] Nanotime: 1751630348829251 INFO : Run #:4 Number of Threads: 2 Queue: LockFree, Mode: Enq_Deq Execution Time: 4.007 seconds.
+[2016-11-15 15:10:50.889] Nanotime: 1751634133667759 INFO : Run #:4 Number of Threads: 2 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 3.784 seconds.
+[2016-11-15 15:10:54.119] Nanotime: 1751637362552954 INFO : Run #:4 Number of Threads: 2 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 3.228 seconds.
+[2016-11-15 15:10:54.119] Nanotime: 1751637362825158 INFO : Number of threads: 4
+[2016-11-15 15:11:00.830] Nanotime: 1751644074863028 INFO : Run #:4 Number of Threads: 4 Queue: LockBased, Mode: Enq_Deq Execution Time: 6.711 seconds.
+[2016-11-15 15:11:03.320] Nanotime: 1751646564087812 INFO : Run #:4 Number of Threads: 4 Queue: LockFree, Mode: Enq_Deq Execution Time: 2.488 seconds.
+[2016-11-15 15:11:06.404] Nanotime: 1751649647692277 INFO : Run #:4 Number of Threads: 4 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 3.083 seconds.
+[2016-11-15 15:11:08.371] Nanotime: 1751651616183790 INFO : Run #:4 Number of Threads: 4 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 1.967 seconds.
+[2016-11-15 15:11:08.373] Nanotime: 1751651616716505 INFO : Number of threads: 8
+[2016-11-15 15:11:12.083] Nanotime: 1751655326447402 INFO : Run #:4 Number of Threads: 8 Queue: LockBased, Mode: Enq_Deq Execution Time: 3.71 seconds.
+[2016-11-15 15:11:15.030] Nanotime: 1751658274311443 INFO : Run #:4 Number of Threads: 8 Queue: LockFree, Mode: Enq_Deq Execution Time: 2.947 seconds.
+[2016-11-15 15:11:18.986] Nanotime: 1751662232096775 INFO : Run #:4 Number of Threads: 8 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 3.955 seconds.
+[2016-11-15 15:11:21.952] Nanotime: 1751665195965917 INFO : Run #:4 Number of Threads: 8 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 2.963 seconds.
+[2016-11-15 15:11:21.953] Nanotime: 1751665196444907 INFO : Number of threads: 16
+[2016-11-15 15:11:27.382] Nanotime: 1751670626756583 INFO : Run #:4 Number of Threads: 16 Queue: LockBased, Mode: Enq_Deq Execution Time: 5.427 seconds.
+[2016-11-15 15:11:31.837] Nanotime: 1751675081848806 INFO : Run #:4 Number of Threads: 16 Queue: LockFree, Mode: Enq_Deq Execution Time: 4.453 seconds.
+[2016-11-15 15:11:35.560] Nanotime: 1751678803550830 INFO : Run #:4 Number of Threads: 16 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 3.722 seconds.
+[2016-11-15 15:11:38.466] Nanotime: 1751681709916683 INFO : Run #:4 Number of Threads: 16 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 2.905 seconds.
+[2016-11-15 15:11:38.467] Nanotime: 1751681710266058 INFO : Number of threads: 32
+[2016-11-15 15:11:43.575] Nanotime: 1751686818938018 INFO : Run #:4 Number of Threads: 32 Queue: LockBased, Mode: Enq_Deq Execution Time: 5.108 seconds.
+[2016-11-15 15:11:50.466] Nanotime: 1751693713458414 INFO : Run #:4 Number of Threads: 32 Queue: LockFree, Mode: Enq_Deq Execution Time: 6.89 seconds.
+[2016-11-15 15:11:57.610] Nanotime: 1751700856253995 INFO : Run #:4 Number of Threads: 32 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 7.136 seconds.
+[2016-11-15 15:12:03.493] Nanotime: 1751706737121021 INFO : Run #:4 Number of Threads: 32 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 5.88 seconds.
+[2016-11-15 15:12:03.494] Nanotime: 1751706737302770 INFO : Number of threads: 64
+[2016-11-15 15:12:12.418] Nanotime: 1751715662413709 INFO : Run #:4 Number of Threads: 64 Queue: LockBased, Mode: Enq_Deq Execution Time: 8.924 seconds.
+[2016-11-15 15:12:17.629] Nanotime: 1751720874439594 INFO : Run #:4 Number of Threads: 64 Queue: LockFree, Mode: Enq_Deq Execution Time: 5.208 seconds.
+[2016-11-15 15:12:27.650] Nanotime: 1751730897609566 INFO : Run #:4 Number of Threads: 64 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 10.017 seconds.
+[2016-11-15 15:12:33.716] Nanotime: 1751736959628863 INFO : Run #:4 Number of Threads: 64 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 6.061 seconds.
+[2016-11-15 15:12:33.716] Nanotime: 1751736960123585 INFO : Run  #5:
+[2016-11-15 15:12:33.717] Nanotime: 1751736960392910 INFO : Number of threads: 1
+[2016-11-15 15:12:37.165] Nanotime: 1751740409310684 INFO : Run #:5 Number of Threads: 1 Queue: LockBased, Mode: Enq_Deq Execution Time: 3.448 seconds.
+[2016-11-15 15:12:39.908] Nanotime: 1751743152260807 INFO : Run #:5 Number of Threads: 1 Queue: LockFree, Mode: Enq_Deq Execution Time: 2.742 seconds.
+[2016-11-15 15:12:43.333] Nanotime: 1751746576853655 INFO : Run #:5 Number of Threads: 1 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 3.424 seconds.
+[2016-11-15 15:12:46.029] Nanotime: 1751749273175786 INFO : Run #:5 Number of Threads: 1 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 2.695 seconds.
+[2016-11-15 15:12:46.030] Nanotime: 1751749273689847 INFO : Number of threads: 2
+[2016-11-15 15:12:53.098] Nanotime: 1751756342617899 INFO : Run #:5 Number of Threads: 2 Queue: LockBased, Mode: Enq_Deq Execution Time: 7.068 seconds.
+[2016-11-15 15:12:57.576] Nanotime: 1751760820711927 INFO : Run #:5 Number of Threads: 2 Queue: LockFree, Mode: Enq_Deq Execution Time: 4.475 seconds.
+[2016-11-15 15:13:03.347] Nanotime: 1751766590928134 INFO : Run #:5 Number of Threads: 2 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 5.769 seconds.
+[2016-11-15 15:13:05.641] Nanotime: 1751768885081924 INFO : Run #:5 Number of Threads: 2 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 2.293 seconds.
+[2016-11-15 15:13:05.642] Nanotime: 1751768885519386 INFO : Number of threads: 4
+[2016-11-15 15:13:12.225] Nanotime: 1751775469459564 INFO : Run #:5 Number of Threads: 4 Queue: LockBased, Mode: Enq_Deq Execution Time: 6.582 seconds.
+[2016-11-15 15:13:14.797] Nanotime: 1751778040956665 INFO : Run #:5 Number of Threads: 4 Queue: LockFree, Mode: Enq_Deq Execution Time: 2.571 seconds.
+[2016-11-15 15:13:18.863] Nanotime: 1751782107315114 INFO : Run #:5 Number of Threads: 4 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 4.065 seconds.
+[2016-11-15 15:13:21.126] Nanotime: 1751784369396410 INFO : Run #:5 Number of Threads: 4 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 2.262 seconds.
+[2016-11-15 15:13:21.126] Nanotime: 1751784369564391 INFO : Number of threads: 8
+[2016-11-15 15:13:25.194] Nanotime: 1751788437941445 INFO : Run #:5 Number of Threads: 8 Queue: LockBased, Mode: Enq_Deq Execution Time: 4.068 seconds.
+[2016-11-15 15:13:28.748] Nanotime: 1751791991918549 INFO : Run #:5 Number of Threads: 8 Queue: LockFree, Mode: Enq_Deq Execution Time: 3.551 seconds.
+[2016-11-15 15:13:32.755] Nanotime: 1751795999414713 INFO : Run #:5 Number of Threads: 8 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 4.005 seconds.
+[2016-11-15 15:13:35.320] Nanotime: 1751798563581305 INFO : Run #:5 Number of Threads: 8 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 2.564 seconds.
+[2016-11-15 15:13:35.320] Nanotime: 1751798563944676 INFO : Number of threads: 16
+[2016-11-15 15:13:39.649] Nanotime: 1751802893807712 INFO : Run #:5 Number of Threads: 16 Queue: LockBased, Mode: Enq_Deq Execution Time: 4.329 seconds.
+[2016-11-15 15:13:43.711] Nanotime: 1751806954872303 INFO : Run #:5 Number of Threads: 16 Queue: LockFree, Mode: Enq_Deq Execution Time: 4.06 seconds.
+[2016-11-15 15:13:49.407] Nanotime: 1751812650441303 INFO : Run #:5 Number of Threads: 16 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 5.692 seconds.
+[2016-11-15 15:13:53.464] Nanotime: 1751816708109555 INFO : Run #:5 Number of Threads: 16 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 4.057 seconds.
+[2016-11-15 15:13:53.465] Nanotime: 1751816708521782 INFO : Number of threads: 32
+[2016-11-15 15:14:00.632] Nanotime: 1751823876844144 INFO : Run #:5 Number of Threads: 32 Queue: LockBased, Mode: Enq_Deq Execution Time: 7.166 seconds.
+[2016-11-15 15:14:05.693] Nanotime: 1751828936401099 INFO : Run #:5 Number of Threads: 32 Queue: LockFree, Mode: Enq_Deq Execution Time: 5.059 seconds.
+[2016-11-15 15:14:11.547] Nanotime: 1751834791419557 INFO : Run #:5 Number of Threads: 32 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 5.854 seconds.
+[2016-11-15 15:14:16.309] Nanotime: 1751839553190229 INFO : Run #:5 Number of Threads: 32 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 4.761 seconds.
+[2016-11-15 15:14:16.310] Nanotime: 1751839553382369 INFO : Number of threads: 64
+[2016-11-15 15:14:26.853] Nanotime: 1751850097544768 INFO : Run #:5 Number of Threads: 64 Queue: LockBased, Mode: Enq_Deq Execution Time: 10.542 seconds.
+[2016-11-15 15:14:32.016] Nanotime: 1751855264307537 INFO : Run #:5 Number of Threads: 64 Queue: LockFree, Mode: Enq_Deq Execution Time: 5.159 seconds.
+[2016-11-15 15:14:40.386] Nanotime: 1751863633658633 INFO : Run #:5 Number of Threads: 64 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 8.362 seconds.
+[2016-11-15 15:14:46.760] Nanotime: 1751870003881986 INFO : Run #:5 Number of Threads: 64 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 6.369 seconds.
+[2016-11-15 15:14:46.761] Nanotime: 1751870004358318 INFO : Run  #6:
+[2016-11-15 15:14:46.761] Nanotime: 1751870004609087 INFO : Number of threads: 1
+[2016-11-15 15:14:51.104] Nanotime: 1751874347760203 INFO : Run #:6 Number of Threads: 1 Queue: LockBased, Mode: Enq_Deq Execution Time: 4.341 seconds.
+[2016-11-15 15:14:53.671] Nanotime: 1751876915033757 INFO : Run #:6 Number of Threads: 1 Queue: LockFree, Mode: Enq_Deq Execution Time: 2.566 seconds.
+[2016-11-15 15:14:57.510] Nanotime: 1751880754225455 INFO : Run #:6 Number of Threads: 1 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 3.837 seconds.
+[2016-11-15 15:15:00.062] Nanotime: 1751883305557975 INFO : Run #:6 Number of Threads: 1 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 2.551 seconds.
+[2016-11-15 15:15:00.062] Nanotime: 1751883305880339 INFO : Number of threads: 2
+[2016-11-15 15:15:07.252] Nanotime: 1751890495644832 INFO : Run #:6 Number of Threads: 2 Queue: LockBased, Mode: Enq_Deq Execution Time: 7.19 seconds.
+[2016-11-15 15:15:11.051] Nanotime: 1751894295472583 INFO : Run #:6 Number of Threads: 2 Queue: LockFree, Mode: Enq_Deq Execution Time: 3.799 seconds.
+[2016-11-15 15:15:17.673] Nanotime: 1751900917365074 INFO : Run #:6 Number of Threads: 2 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 6.62 seconds.
+[2016-11-15 15:15:22.117] Nanotime: 1751905360993939 INFO : Run #:6 Number of Threads: 2 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 4.441 seconds.
+[2016-11-15 15:15:22.118] Nanotime: 1751905361311992 INFO : Number of threads: 4
+[2016-11-15 15:15:24.650] Nanotime: 1751907894446168 INFO : Run #:6 Number of Threads: 4 Queue: LockBased, Mode: Enq_Deq Execution Time: 2.532 seconds.
+[2016-11-15 15:15:27.330] Nanotime: 1751910574425015 INFO : Run #:6 Number of Threads: 4 Queue: LockFree, Mode: Enq_Deq Execution Time: 2.678 seconds.
+[2016-11-15 15:15:31.379] Nanotime: 1751914623527233 INFO : Run #:6 Number of Threads: 4 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 4.048 seconds.
+[2016-11-15 15:15:33.711] Nanotime: 1751916954505252 INFO : Run #:6 Number of Threads: 4 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 2.33 seconds.
+[2016-11-15 15:15:33.711] Nanotime: 1751916954817378 INFO : Number of threads: 8
+[2016-11-15 15:15:37.723] Nanotime: 1751920967575040 INFO : Run #:6 Number of Threads: 8 Queue: LockBased, Mode: Enq_Deq Execution Time: 4.011 seconds.
+[2016-11-15 15:15:41.244] Nanotime: 1751924487916559 INFO : Run #:6 Number of Threads: 8 Queue: LockFree, Mode: Enq_Deq Execution Time: 3.519 seconds.
+[2016-11-15 15:15:44.807] Nanotime: 1751928051135286 INFO : Run #:6 Number of Threads: 8 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 3.563 seconds.
+[2016-11-15 15:15:47.233] Nanotime: 1751930477095898 INFO : Run #:6 Number of Threads: 8 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 2.425 seconds.
+[2016-11-15 15:15:47.234] Nanotime: 1751930477277021 INFO : Number of threads: 16
+[2016-11-15 15:15:52.106] Nanotime: 1751935350194257 INFO : Run #:6 Number of Threads: 16 Queue: LockBased, Mode: Enq_Deq Execution Time: 4.871 seconds.
+[2016-11-15 15:15:55.380] Nanotime: 1751938623233692 INFO : Run #:6 Number of Threads: 16 Queue: LockFree, Mode: Enq_Deq Execution Time: 3.272 seconds.
+[2016-11-15 15:16:01.226] Nanotime: 1751944470216580 INFO : Run #:6 Number of Threads: 16 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 5.845 seconds.
+[2016-11-15 15:16:05.124] Nanotime: 1751948367856860 INFO : Run #:6 Number of Threads: 16 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 3.897 seconds.
+[2016-11-15 15:16:05.124] Nanotime: 1751948368161233 INFO : Number of threads: 32
+[2016-11-15 15:16:13.748] Nanotime: 1751956992050558 INFO : Run #:6 Number of Threads: 32 Queue: LockBased, Mode: Enq_Deq Execution Time: 8.62 seconds.
+[2016-11-15 15:16:18.558] Nanotime: 1751961802596667 INFO : Run #:6 Number of Threads: 32 Queue: LockFree, Mode: Enq_Deq Execution Time: 4.809 seconds.
+[2016-11-15 15:16:25.316] Nanotime: 1751968561100027 INFO : Run #:6 Number of Threads: 32 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 6.754 seconds.
+[2016-11-15 15:16:31.998] Nanotime: 1751975242743946 INFO : Run #:6 Number of Threads: 32 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 6.676 seconds.
+[2016-11-15 15:16:32.000] Nanotime: 1751975246828628 INFO : Number of threads: 64
+[2016-11-15 15:16:42.528] Nanotime: 1751985773253824 INFO : Run #:6 Number of Threads: 64 Queue: LockBased, Mode: Enq_Deq Execution Time: 10.522 seconds.
+[2016-11-15 15:16:51.705] Nanotime: 1751994950492064 INFO : Run #:6 Number of Threads: 64 Queue: LockFree, Mode: Enq_Deq Execution Time: 9.17 seconds.
+[2016-11-15 15:16:59.722] Nanotime: 1752002968885799 INFO : Run #:6 Number of Threads: 64 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 8.014 seconds.
+[2016-11-15 15:17:05.541] Nanotime: 1752008785206023 INFO : Run #:6 Number of Threads: 64 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 5.815 seconds.
+[2016-11-15 15:17:05.542] Nanotime: 1752008786093724 INFO : Run  #7:
+[2016-11-15 15:17:05.543] Nanotime: 1752008786306882 INFO : Number of threads: 1
+[2016-11-15 15:17:09.122] Nanotime: 1752012366163069 INFO : Run #:7 Number of Threads: 1 Queue: LockBased, Mode: Enq_Deq Execution Time: 3.579 seconds.
+[2016-11-15 15:17:11.767] Nanotime: 1752015010673812 INFO : Run #:7 Number of Threads: 1 Queue: LockFree, Mode: Enq_Deq Execution Time: 2.644 seconds.
+[2016-11-15 15:17:15.453] Nanotime: 1752018697032192 INFO : Run #:7 Number of Threads: 1 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 3.685 seconds.
+[2016-11-15 15:17:17.863] Nanotime: 1752021107327358 INFO : Run #:7 Number of Threads: 1 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 2.409 seconds.
+[2016-11-15 15:17:17.864] Nanotime: 1752021108171719 INFO : Number of threads: 2
+[2016-11-15 15:17:25.247] Nanotime: 1752028490875879 INFO : Run #:7 Number of Threads: 2 Queue: LockBased, Mode: Enq_Deq Execution Time: 7.382 seconds.
+[2016-11-15 15:17:27.658] Nanotime: 1752030901993706 INFO : Run #:7 Number of Threads: 2 Queue: LockFree, Mode: Enq_Deq Execution Time: 2.409 seconds.
+[2016-11-15 15:17:34.205] Nanotime: 1752037448599987 INFO : Run #:7 Number of Threads: 2 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 6.545 seconds.
+[2016-11-15 15:17:38.783] Nanotime: 1752042028585433 INFO : Run #:7 Number of Threads: 2 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 4.577 seconds.
+[2016-11-15 15:17:38.785] Nanotime: 1752042029064296 INFO : Number of threads: 4
+[2016-11-15 15:17:43.235] Nanotime: 1752046479418312 INFO : Run #:7 Number of Threads: 4 Queue: LockBased, Mode: Enq_Deq Execution Time: 4.449 seconds.
+[2016-11-15 15:17:45.815] Nanotime: 1752049058999419 INFO : Run #:7 Number of Threads: 4 Queue: LockFree, Mode: Enq_Deq Execution Time: 2.579 seconds.
+[2016-11-15 15:17:50.407] Nanotime: 1752053651734859 INFO : Run #:7 Number of Threads: 4 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 4.591 seconds.
+[2016-11-15 15:17:53.056] Nanotime: 1752056299427249 INFO : Run #:7 Number of Threads: 4 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 2.647 seconds.
+[2016-11-15 15:17:53.056] Nanotime: 1752056299656163 INFO : Number of threads: 8
+[2016-11-15 15:17:56.508] Nanotime: 1752059751505545 INFO : Run #:7 Number of Threads: 8 Queue: LockBased, Mode: Enq_Deq Execution Time: 3.452 seconds.
+[2016-11-15 15:17:59.300] Nanotime: 1752062545086401 INFO : Run #:7 Number of Threads: 8 Queue: LockFree, Mode: Enq_Deq Execution Time: 2.792 seconds.
+[2016-11-15 15:18:03.169] Nanotime: 1752066412704495 INFO : Run #:7 Number of Threads: 8 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 3.866 seconds.
+[2016-11-15 15:18:05.647] Nanotime: 1752068891166369 INFO : Run #:7 Number of Threads: 8 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 2.478 seconds.
+[2016-11-15 15:18:05.648] Nanotime: 1752068891486977 INFO : Number of threads: 16
+[2016-11-15 15:18:10.615] Nanotime: 1752073860943304 INFO : Run #:7 Number of Threads: 16 Queue: LockBased, Mode: Enq_Deq Execution Time: 4.966 seconds.
+[2016-11-15 15:18:14.439] Nanotime: 1752077683952115 INFO : Run #:7 Number of Threads: 16 Queue: LockFree, Mode: Enq_Deq Execution Time: 3.821 seconds.
+[2016-11-15 15:18:18.243] Nanotime: 1752081487189360 INFO : Run #:7 Number of Threads: 16 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 3.801 seconds.
+[2016-11-15 15:18:22.013] Nanotime: 1752085257268240 INFO : Run #:7 Number of Threads: 16 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 3.769 seconds.
+[2016-11-15 15:18:22.014] Nanotime: 1752085258166545 INFO : Number of threads: 32
+[2016-11-15 15:18:29.432] Nanotime: 1752092677062741 INFO : Run #:7 Number of Threads: 32 Queue: LockBased, Mode: Enq_Deq Execution Time: 7.415 seconds.
+[2016-11-15 15:18:36.912] Nanotime: 1752100155992209 INFO : Run #:7 Number of Threads: 32 Queue: LockFree, Mode: Enq_Deq Execution Time: 7.478 seconds.
+[2016-11-15 15:18:43.544] Nanotime: 1752106789785213 INFO : Run #:7 Number of Threads: 32 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 6.631 seconds.
+[2016-11-15 15:18:51.063] Nanotime: 1752114309506375 INFO : Run #:7 Number of Threads: 32 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 7.514 seconds.
+[2016-11-15 15:18:51.068] Nanotime: 1752114311798042 INFO : Number of threads: 64
+[2016-11-15 15:19:01.110] Nanotime: 1752124354674021 INFO : Run #:7 Number of Threads: 64 Queue: LockBased, Mode: Enq_Deq Execution Time: 10.038 seconds.
+[2016-11-15 15:19:09.895] Nanotime: 1752133141617149 INFO : Run #:7 Number of Threads: 64 Queue: LockFree, Mode: Enq_Deq Execution Time: 8.781 seconds.
+[2016-11-15 15:19:19.606] Nanotime: 1752142851823133 INFO : Run #:7 Number of Threads: 64 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 9.704 seconds.
+[2016-11-15 15:19:29.502] Nanotime: 1752152747902328 INFO : Run #:7 Number of Threads: 64 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 9.888 seconds.
+[2016-11-15 15:19:29.505] Nanotime: 1752152749207346 INFO : Run  #8:
+[2016-11-15 15:19:29.506] Nanotime: 1752152749469316 INFO : Number of threads: 1
+[2016-11-15 15:19:33.034] Nanotime: 1752156278573230 INFO : Run #:8 Number of Threads: 1 Queue: LockBased, Mode: Enq_Deq Execution Time: 3.528 seconds.
+[2016-11-15 15:19:35.440] Nanotime: 1752158684589875 INFO : Run #:8 Number of Threads: 1 Queue: LockFree, Mode: Enq_Deq Execution Time: 2.405 seconds.
+[2016-11-15 15:19:38.916] Nanotime: 1752162160251422 INFO : Run #:8 Number of Threads: 1 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 3.475 seconds.
+[2016-11-15 15:19:41.553] Nanotime: 1752164796653987 INFO : Run #:8 Number of Threads: 1 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 2.635 seconds.
+[2016-11-15 15:19:41.553] Nanotime: 1752164796911414 INFO : Number of threads: 2
+[2016-11-15 15:19:45.194] Nanotime: 1752168437501351 INFO : Run #:8 Number of Threads: 2 Queue: LockBased, Mode: Enq_Deq Execution Time: 3.64 seconds.
+[2016-11-15 15:19:46.962] Nanotime: 1752170205433235 INFO : Run #:8 Number of Threads: 2 Queue: LockFree, Mode: Enq_Deq Execution Time: 1.767 seconds.
+[2016-11-15 15:19:52.906] Nanotime: 1752176149824237 INFO : Run #:8 Number of Threads: 2 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 5.943 seconds.
+[2016-11-15 15:19:57.044] Nanotime: 1752180287989577 INFO : Run #:8 Number of Threads: 2 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 4.137 seconds.
+[2016-11-15 15:19:57.045] Nanotime: 1752180288304154 INFO : Number of threads: 4
+[2016-11-15 15:20:01.966] Nanotime: 1752185210647231 INFO : Run #:8 Number of Threads: 4 Queue: LockBased, Mode: Enq_Deq Execution Time: 4.921 seconds.
+[2016-11-15 15:20:04.356] Nanotime: 1752187600224887 INFO : Run #:8 Number of Threads: 4 Queue: LockFree, Mode: Enq_Deq Execution Time: 2.388 seconds.
+[2016-11-15 15:20:08.711] Nanotime: 1752191955429536 INFO : Run #:8 Number of Threads: 4 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 4.354 seconds.
+[2016-11-15 15:20:11.090] Nanotime: 1752194334019869 INFO : Run #:8 Number of Threads: 4 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 2.377 seconds.
+[2016-11-15 15:20:11.091] Nanotime: 1752194334284504 INFO : Number of threads: 8
+[2016-11-15 15:20:14.302] Nanotime: 1752197545738510 INFO : Run #:8 Number of Threads: 8 Queue: LockBased, Mode: Enq_Deq Execution Time: 3.211 seconds.
+[2016-11-15 15:20:17.152] Nanotime: 1752200395724027 INFO : Run #:8 Number of Threads: 8 Queue: LockFree, Mode: Enq_Deq Execution Time: 2.85 seconds.
+[2016-11-15 15:20:20.275] Nanotime: 1752203519007598 INFO : Run #:8 Number of Threads: 8 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 3.122 seconds.
+[2016-11-15 15:20:23.602] Nanotime: 1752206845842313 INFO : Run #:8 Number of Threads: 8 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 3.326 seconds.
+[2016-11-15 15:20:23.602] Nanotime: 1752206846041511 INFO : Number of threads: 16
+[2016-11-15 15:20:27.474] Nanotime: 1752210719071941 INFO : Run #:8 Number of Threads: 16 Queue: LockBased, Mode: Enq_Deq Execution Time: 3.87 seconds.
+[2016-11-15 15:20:31.318] Nanotime: 1752214562289831 INFO : Run #:8 Number of Threads: 16 Queue: LockFree, Mode: Enq_Deq Execution Time: 3.842 seconds.
+[2016-11-15 15:20:35.021] Nanotime: 1752218264687197 INFO : Run #:8 Number of Threads: 16 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 3.702 seconds.
+[2016-11-15 15:20:38.168] Nanotime: 1752221412300735 INFO : Run #:8 Number of Threads: 16 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 3.146 seconds.
+[2016-11-15 15:20:38.170] Nanotime: 1752221413625794 INFO : Number of threads: 32
+[2016-11-15 15:20:43.972] Nanotime: 1752227216331562 INFO : Run #:8 Number of Threads: 32 Queue: LockBased, Mode: Enq_Deq Execution Time: 5.802 seconds.
+[2016-11-15 15:20:49.245] Nanotime: 1752232489420653 INFO : Run #:8 Number of Threads: 32 Queue: LockFree, Mode: Enq_Deq Execution Time: 5.272 seconds.
+[2016-11-15 15:20:57.944] Nanotime: 1752241190470272 INFO : Run #:8 Number of Threads: 32 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 8.694 seconds.
+[2016-11-15 15:21:05.257] Nanotime: 1752248500417321 INFO : Run #:8 Number of Threads: 32 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 7.309 seconds.
+[2016-11-15 15:21:05.257] Nanotime: 1752248500986102 INFO : Number of threads: 64
+[2016-11-15 15:21:11.015] Nanotime: 1752254259431531 INFO : Run #:8 Number of Threads: 64 Queue: LockBased, Mode: Enq_Deq Execution Time: 5.757 seconds.
+[2016-11-15 15:21:16.364] Nanotime: 1752259608004365 INFO : Run #:8 Number of Threads: 64 Queue: LockFree, Mode: Enq_Deq Execution Time: 5.346 seconds.
+[2016-11-15 15:21:27.250] Nanotime: 1752270497327295 INFO : Run #:8 Number of Threads: 64 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 10.885 seconds.
+[2016-11-15 15:21:36.697] Nanotime: 1752279945961336 INFO : Run #:8 Number of Threads: 64 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 9.441 seconds.
+[2016-11-15 15:21:36.703] Nanotime: 1752279946876926 INFO : Run  #9:
+[2016-11-15 15:21:36.703] Nanotime: 1752279947020927 INFO : Number of threads: 1
+[2016-11-15 15:21:40.109] Nanotime: 1752283353040501 INFO : Run #:9 Number of Threads: 1 Queue: LockBased, Mode: Enq_Deq Execution Time: 3.405 seconds.
+[2016-11-15 15:21:43.012] Nanotime: 1752286255597783 INFO : Run #:9 Number of Threads: 1 Queue: LockFree, Mode: Enq_Deq Execution Time: 2.902 seconds.
+[2016-11-15 15:21:46.124] Nanotime: 1752289368303143 INFO : Run #:9 Number of Threads: 1 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 3.112 seconds.
+[2016-11-15 15:21:48.825] Nanotime: 1752292070904701 INFO : Run #:9 Number of Threads: 1 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 2.7 seconds.
+[2016-11-15 15:21:48.828] Nanotime: 1752292071541409 INFO : Number of threads: 2
+[2016-11-15 15:21:52.098] Nanotime: 1752295341639567 INFO : Run #:9 Number of Threads: 2 Queue: LockBased, Mode: Enq_Deq Execution Time: 3.269 seconds.
+[2016-11-15 15:21:56.671] Nanotime: 1752299914604443 INFO : Run #:9 Number of Threads: 2 Queue: LockFree, Mode: Enq_Deq Execution Time: 4.572 seconds.
+[2016-11-15 15:21:59.516] Nanotime: 1752302760439140 INFO : Run #:9 Number of Threads: 2 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 2.845 seconds.
+[2016-11-15 15:22:03.781] Nanotime: 1752307025360397 INFO : Run #:9 Number of Threads: 2 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 4.264 seconds.
+[2016-11-15 15:22:03.782] Nanotime: 1752307025716826 INFO : Number of threads: 4
+[2016-11-15 15:22:09.900] Nanotime: 1752313144803797 INFO : Run #:9 Number of Threads: 4 Queue: LockBased, Mode: Enq_Deq Execution Time: 6.118 seconds.
+[2016-11-15 15:22:12.432] Nanotime: 1752315676020733 INFO : Run #:9 Number of Threads: 4 Queue: LockFree, Mode: Enq_Deq Execution Time: 2.53 seconds.
+[2016-11-15 15:22:15.779] Nanotime: 1752319023178869 INFO : Run #:9 Number of Threads: 4 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 3.346 seconds.
+[2016-11-15 15:22:18.110] Nanotime: 1752321354522992 INFO : Run #:9 Number of Threads: 4 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 2.33 seconds.
+[2016-11-15 15:22:18.112] Nanotime: 1752321355355770 INFO : Number of threads: 8
+[2016-11-15 15:22:22.465] Nanotime: 1752325708811952 INFO : Run #:9 Number of Threads: 8 Queue: LockBased, Mode: Enq_Deq Execution Time: 4.353 seconds.
+[2016-11-15 15:22:25.195] Nanotime: 1752328438365683 INFO : Run #:9 Number of Threads: 8 Queue: LockFree, Mode: Enq_Deq Execution Time: 2.73 seconds.
+[2016-11-15 15:22:28.814] Nanotime: 1752332058724142 INFO : Run #:9 Number of Threads: 8 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 3.619 seconds.
+[2016-11-15 15:22:31.785] Nanotime: 1752335029123939 INFO : Run #:9 Number of Threads: 8 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 2.969 seconds.
+[2016-11-15 15:22:31.786] Nanotime: 1752335029362233 INFO : Number of threads: 16
+[2016-11-15 15:22:35.444] Nanotime: 1752338687446008 INFO : Run #:9 Number of Threads: 16 Queue: LockBased, Mode: Enq_Deq Execution Time: 3.658 seconds.
+[2016-11-15 15:22:38.332] Nanotime: 1752341576585064 INFO : Run #:9 Number of Threads: 16 Queue: LockFree, Mode: Enq_Deq Execution Time: 2.887 seconds.
+[2016-11-15 15:22:43.553] Nanotime: 1752346796524789 INFO : Run #:9 Number of Threads: 16 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 5.219 seconds.
+[2016-11-15 15:22:46.896] Nanotime: 1752350139986298 INFO : Run #:9 Number of Threads: 16 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 3.343 seconds.
+[2016-11-15 15:22:46.896] Nanotime: 1752350140202820 INFO : Number of threads: 32
+[2016-11-15 15:22:53.028] Nanotime: 1752356272131386 INFO : Run #:9 Number of Threads: 32 Queue: LockBased, Mode: Enq_Deq Execution Time: 6.13 seconds.
+[2016-11-15 15:22:57.801] Nanotime: 1752361046091370 INFO : Run #:9 Number of Threads: 32 Queue: LockFree, Mode: Enq_Deq Execution Time: 4.772 seconds.
+[2016-11-15 15:23:03.289] Nanotime: 1752366532354810 INFO : Run #:9 Number of Threads: 32 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 5.486 seconds.
+[2016-11-15 15:23:10.972] Nanotime: 1752374216253752 INFO : Run #:9 Number of Threads: 32 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 7.678 seconds.
+[2016-11-15 15:23:10.973] Nanotime: 1752374216637666 INFO : Number of threads: 64
+[2016-11-15 15:23:20.231] Nanotime: 1752383477746911 INFO : Run #:9 Number of Threads: 64 Queue: LockBased, Mode: Enq_Deq Execution Time: 9.255 seconds.
+[2016-11-15 15:23:28.209] Nanotime: 1752391453715357 INFO : Run #:9 Number of Threads: 64 Queue: LockFree, Mode: Enq_Deq Execution Time: 7.973 seconds.
+[2016-11-15 15:23:34.254] Nanotime: 1752397498139592 INFO : Run #:9 Number of Threads: 64 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 6.043 seconds.
+[2016-11-15 15:23:40.375] Nanotime: 1752403622853009 INFO : Run #:9 Number of Threads: 64 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 6.12 seconds.
+[2016-11-15 15:23:40.380] Nanotime: 1752403624015665 INFO : Run  #10:
+[2016-11-15 15:23:40.380] Nanotime: 1752403624164003 INFO : Number of threads: 1
+[2016-11-15 15:23:43.669] Nanotime: 1752406913118077 INFO : Run #:10 Number of Threads: 1 Queue: LockBased, Mode: Enq_Deq Execution Time: 3.288 seconds.
+[2016-11-15 15:23:46.060] Nanotime: 1752409304204936 INFO : Run #:10 Number of Threads: 1 Queue: LockFree, Mode: Enq_Deq Execution Time: 2.381 seconds.
+[2016-11-15 15:23:49.725] Nanotime: 1752412969471376 INFO : Run #:10 Number of Threads: 1 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 3.654 seconds.
+[2016-11-15 15:23:52.438] Nanotime: 1752415681673544 INFO : Run #:10 Number of Threads: 1 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 2.711 seconds.
+[2016-11-15 15:23:52.438] Nanotime: 1752415681936659 INFO : Number of threads: 2
+[2016-11-15 15:23:56.581] Nanotime: 1752419825206114 INFO : Run #:10 Number of Threads: 2 Queue: LockBased, Mode: Enq_Deq Execution Time: 4.142 seconds.
+[2016-11-15 15:24:00.708] Nanotime: 1752423951927340 INFO : Run #:10 Number of Threads: 2 Queue: LockFree, Mode: Enq_Deq Execution Time: 4.125 seconds.
+[2016-11-15 15:24:06.530] Nanotime: 1752429773757923 INFO : Run #:10 Number of Threads: 2 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 5.821 seconds.
+[2016-11-15 15:24:11.363] Nanotime: 1752434607582309 INFO : Run #:10 Number of Threads: 2 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 4.833 seconds.
+[2016-11-15 15:24:11.365] Nanotime: 1752434608313020 INFO : Number of threads: 4
+[2016-11-15 15:24:18.094] Nanotime: 1752441338751935 INFO : Run #:10 Number of Threads: 4 Queue: LockBased, Mode: Enq_Deq Execution Time: 6.729 seconds.
+[2016-11-15 15:24:20.434] Nanotime: 1752443678297128 INFO : Run #:10 Number of Threads: 4 Queue: LockFree, Mode: Enq_Deq Execution Time: 2.338 seconds.
+[2016-11-15 15:24:22.952] Nanotime: 1752446195753516 INFO : Run #:10 Number of Threads: 4 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 2.517 seconds.
+[2016-11-15 15:24:25.552] Nanotime: 1752448795515998 INFO : Run #:10 Number of Threads: 4 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 2.599 seconds.
+[2016-11-15 15:24:25.552] Nanotime: 1752448796081553 INFO : Number of threads: 8
+[2016-11-15 15:24:29.468] Nanotime: 1752452713415244 INFO : Run #:10 Number of Threads: 8 Queue: LockBased, Mode: Enq_Deq Execution Time: 3.915 seconds.
+[2016-11-15 15:24:32.912] Nanotime: 1752456155614800 INFO : Run #:10 Number of Threads: 8 Queue: LockFree, Mode: Enq_Deq Execution Time: 3.442 seconds.
+[2016-11-15 15:24:36.192] Nanotime: 1752459435810220 INFO : Run #:10 Number of Threads: 8 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 3.28 seconds.
+[2016-11-15 15:24:39.164] Nanotime: 1752462409267775 INFO : Run #:10 Number of Threads: 8 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 2.971 seconds.
+[2016-11-15 15:24:39.167] Nanotime: 1752462410376379 INFO : Number of threads: 16
+[2016-11-15 15:24:44.620] Nanotime: 1752467863611565 INFO : Run #:10 Number of Threads: 16 Queue: LockBased, Mode: Enq_Deq Execution Time: 5.453 seconds.
+[2016-11-15 15:24:48.533] Nanotime: 1752471777025684 INFO : Run #:10 Number of Threads: 16 Queue: LockFree, Mode: Enq_Deq Execution Time: 3.908 seconds.
+[2016-11-15 15:24:53.886] Nanotime: 1752477129846051 INFO : Run #:10 Number of Threads: 16 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 5.352 seconds.
+[2016-11-15 15:24:57.570] Nanotime: 1752480814114267 INFO : Run #:10 Number of Threads: 16 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 3.682 seconds.
+[2016-11-15 15:24:57.572] Nanotime: 1752480817559092 INFO : Number of threads: 32
+[2016-11-15 15:25:05.733] Nanotime: 1752488978283668 INFO : Run #:10 Number of Threads: 32 Queue: LockBased, Mode: Enq_Deq Execution Time: 8.159 seconds.
+[2016-11-15 15:25:11.105] Nanotime: 1752494350771213 INFO : Run #:10 Number of Threads: 32 Queue: LockFree, Mode: Enq_Deq Execution Time: 5.37 seconds.
+[2016-11-15 15:25:17.436] Nanotime: 1752500681880460 INFO : Run #:10 Number of Threads: 32 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 6.327 seconds.
+[2016-11-15 15:25:22.465] Nanotime: 1752505708905512 INFO : Run #:10 Number of Threads: 32 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 5.026 seconds.
+[2016-11-15 15:25:22.466] Nanotime: 1752505709373561 INFO : Number of threads: 64
+[2016-11-15 15:25:32.429] Nanotime: 1752515675749337 INFO : Run #:10 Number of Threads: 64 Queue: LockBased, Mode: Enq_Deq Execution Time: 9.963 seconds.
+[2016-11-15 15:25:38.310] Nanotime: 1752521557292480 INFO : Run #:10 Number of Threads: 64 Queue: LockFree, Mode: Enq_Deq Execution Time: 5.876 seconds.
+[2016-11-15 15:25:49.204] Nanotime: 1752532451645414 INFO : Run #:10 Number of Threads: 64 Queue: LockBased, Mode: Enq_Deq_isEmpty Execution Time: 10.888 seconds.
+[2016-11-15 15:25:56.068] Nanotime: 1752539311946780 INFO : Run #:10 Number of Threads: 64 Queue: LockFree, Mode: Enq_Deq_isEmpty Execution Time: 6.859 seconds.
