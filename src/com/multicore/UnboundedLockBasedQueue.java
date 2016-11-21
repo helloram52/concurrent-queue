@@ -12,6 +12,7 @@ public class UnboundedLockBasedQueue<T> implements UnBoundedQueue<T> {
     private Lock enqLock;
     private Lock deqLock;
 
+    @SuppressWarnings("unchecked")
     public UnboundedLockBasedQueue() {
         head = new Node(Integer.MIN_VALUE);
 //        tail = new Node(Integer.MAX_VALUE);
@@ -21,6 +22,7 @@ public class UnboundedLockBasedQueue<T> implements UnBoundedQueue<T> {
         deqLock = new TestTestAndSet();
     }
 
+    @SuppressWarnings("unchecked")
     @Override
     public void enq(T x) {
         enqLock.lock();
@@ -34,6 +36,7 @@ public class UnboundedLockBasedQueue<T> implements UnBoundedQueue<T> {
         }
     }
 
+    @SuppressWarnings("unchecked")
     @Override
     public T deq() throws EmptyStackException {
         T result;

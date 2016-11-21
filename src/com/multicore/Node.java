@@ -36,6 +36,7 @@ class LockFreeNode<T> extends Node {
 
     private AtomicReference<LockFreeNode> next;
 
+    @SuppressWarnings("unchecked")
     LockFreeNode(T value) {
         super(value);
         next = new AtomicReference<>(null);

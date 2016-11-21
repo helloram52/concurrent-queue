@@ -33,6 +33,7 @@ public class BasicThread implements Runnable {
     this(operationID, queue, operationName, -1, threadCounter, lastDequeued);
   }
 
+  @SuppressWarnings("unchecked")
   public void run() {
 
     int value = 0;

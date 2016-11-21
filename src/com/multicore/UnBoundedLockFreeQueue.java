@@ -13,6 +13,7 @@ public class UnBoundedLockFreeQueue<T> implements UnBoundedQueue<T> {
     private AtomicReference<LockFreeNode> head;
     private AtomicReference<LockFreeNode> tail;
 
+    @SuppressWarnings("unchecked")
     UnBoundedLockFreeQueue() {
         LockFreeNode<Integer> sentinel = new LockFreeNode(Integer.MIN_VALUE);
         head = new AtomicReference<>(sentinel);
@@ -20,6 +21,7 @@ public class UnBoundedLockFreeQueue<T> implements UnBoundedQueue<T> {
 //        head.get().setNext(tail.get());
     }
 
+    @SuppressWarnings("unchecked")
     @Override
     public void enq(T x) {
         LockFreeNode newNode = new LockFreeNode(x);
@@ -40,6 +42,7 @@ public class UnBoundedLockFreeQueue<T> implements UnBoundedQueue<T> {
         }
     }
 
+    @SuppressWarnings("unchecked")
     @Override
     public T deq() throws EmptyStackException {
         while( true ) {
