@@ -5,7 +5,7 @@ package com.multicore;
  * the experiment.
  */
 public enum RunMode {
-  ENQ_DEQ(80, 20, 0, "Enq_Deq"),
+  ENQ_DEQ(50, 50, 0, "Enq_Deq"),
   MIXED(40, 40, 20, "Enq_Deq_isEmpty");
 
   int percentageOfEnqueue, percentageOfDequeue, percentageOfIsEmpty;

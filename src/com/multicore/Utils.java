@@ -8,12 +8,17 @@ import java.util.logging.Formatter;
 
 public final class Utils {
 
-    public static boolean debugFlag = true;
-    private static Logger logger;
-    private static HashMap<Integer, ArrayList<Float>> statsMap;
+  public static boolean debugFlag = true;
+  public static boolean testFlag = false;
+  private static Logger logger;
+  private static HashMap<Integer, ArrayList<Float>> statsMap;
 
   public Utils() {
     statsMap = new HashMap<>();
+  }
+
+  public static void setTestingFlag() {
+    testFlag = true;
   }
 
   public static void setLogger() {
@@ -61,6 +66,10 @@ public final class Utils {
 
   public static void logWarning(String message) {
     logger.warning(message);
+  }
+
+  public static void logError(String message) {
+    logger.severe(message);
   }
 
   public static void gatherStatistics(int algorithmIndex, float executionTime) {

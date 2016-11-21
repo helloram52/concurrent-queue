@@ -5,7 +5,7 @@ import java.util.EmptyStackException;
 /**
  * Created by ram on 11/13/16.
  */
-public class UnboundedLockBasedQueue implements UnBoundedQueue {
+public class UnboundedLockBasedQueue<T> implements UnBoundedQueue<T> {
 
     private Node head;
     private Node tail;
@@ -14,16 +14,18 @@ public class UnboundedLockBasedQueue implements UnBoundedQueue {
 
     public UnboundedLockBasedQueue() {
         head = new Node(Integer.MIN_VALUE);
-        tail = new Node(Integer.MAX_VALUE);
+//        tail = new Node(Integer.MAX_VALUE);
+//        head.setNext(tail);
+        tail = head;
         enqLock = new TestTestAndSet();
         deqLock = new TestTestAndSet();
     }
 
     @Override
-    public void enq(int x) {
+    public void enq(T x) {
         enqLock.lock();
         try {
-            Node newNode = new Node(x);
+            Node<T> newNode = new Node<>(x);
             tail.setNext(newNode);
             tail = newNode;
         }
@@ -33,14 +35,14 @@ public class UnboundedLockBasedQueue implements UnBoundedQueue {
     }
 
     @Override
-    public int deq() throws EmptyStackException {
-        int result;
+    public T deq() throws EmptyStackException {
+        T result;
         deqLock.lock();
         try {
             if ( head.getNext() == null ) {
                 throw new EmptyStackException();
             }
-            result = head.getNext().getValue();
+            result = (T) head.getNext().getValue();
             head = head.getNext();
             return result;
         }

@@ -8,18 +8,20 @@ import java.util.concurrent.atomic.AtomicReference;
 /**
  * Created by Ram on 11/13/16.
  */
-public class UnBoundedLockFreeQueue implements UnBoundedQueue {
+public class UnBoundedLockFreeQueue<T> implements UnBoundedQueue<T> {
 
     private AtomicReference<LockFreeNode> head;
     private AtomicReference<LockFreeNode> tail;
 
     UnBoundedLockFreeQueue() {
-        head = new AtomicReference<>(new LockFreeNode(Integer.MIN_VALUE));
-        tail = new AtomicReference<>(new LockFreeNode(Integer.MAX_VALUE));
+        LockFreeNode<Integer> sentinel = new LockFreeNode(Integer.MIN_VALUE);
+        head = new AtomicReference<>(sentinel);
+        tail = new AtomicReference<>(sentinel);
+//        head.get().setNext(tail.get());
     }
 
     @Override
-    public void enq(int x) {
+    public void enq(T x) {
         LockFreeNode newNode = new LockFreeNode(x);
         while(true) {
             LockFreeNode last = tail.get();
@@ -39,7 +41,7 @@ public class UnBoundedLockFreeQueue implements UnBoundedQueue {
     }
 
     @Override
-    public int deq() throws EmptyStackException {
+    public T deq() throws EmptyStackException {
         while( true ) {
             LockFreeNode first = head.get();
             LockFreeNode last = tail.get();
@@ -53,7 +55,7 @@ public class UnBoundedLockFreeQueue implements UnBoundedQueue {
                     tail.compareAndSet(last, next);
                 }
                 else {
-                    int value = next.getValue();
+                    T value = (T) next.getValue();
                     if( head.compareAndSet(first, next) ) {
                         return value;
                     }

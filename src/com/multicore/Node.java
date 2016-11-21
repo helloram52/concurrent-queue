@@ -5,21 +5,21 @@ import java.util.concurrent.atomic.AtomicReference;
 /**
  * Created by Ram on 11/13/16.
  */
-class Node {
+class Node<T> {
 
-    private int value;
+    private T value;
     private Node next;
 
-    Node(int value) {
+    Node(T value) {
         this.value = value;
         this.next = null;
     }
 
-    int getValue() {
+    T getValue() {
         return value;
     }
 
-    public void setValue(int value) {
+    public void setValue(T value) {
         this.value = value;
     }
 
@@ -32,11 +32,11 @@ class Node {
     }
 }
 
-class LockFreeNode extends Node {
+class LockFreeNode<T> extends Node {
 
     private AtomicReference<LockFreeNode> next;
 
-    LockFreeNode(int value) {
+    LockFreeNode(T value) {
         super(value);
         next = new AtomicReference<>(null);
     }
@@ -44,6 +44,10 @@ class LockFreeNode extends Node {
     @Override
     LockFreeNode getNext() {
         return this.next.get();
+    }
+
+    void setNext(LockFreeNode next) {
+        this.next = new AtomicReference<>(next);
     }
 
     AtomicReference<LockFreeNode> getNextAtomicReference() {
